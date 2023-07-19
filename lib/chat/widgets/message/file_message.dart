@@ -56,7 +56,7 @@ class FileMessage extends StatelessWidget {
                   InheritedChatTheme.of(context).theme.documentIcon != null
                       ? InheritedChatTheme.of(context).theme.documentIcon!
                       : Image.asset(
-                          'lib/chat/assets/icon-document.png',
+                          'assets/icons/icon-document.png',
                           color: color,
                         ),
                 ],

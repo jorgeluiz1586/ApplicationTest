@@ -50,7 +50,7 @@ class AttachmentButton extends StatelessWidget {
                 )
               : InheritedChatTheme.of(context).theme.attachmentButtonIcon ??
                   Image.asset(
-                    'lib/chat/assets/icon-attachment.png',
+                    'assets/icons/icon-attachment.png',
                     color: InheritedChatTheme.of(context).theme.inputTextColor,
                   ),
           onPressed: isLoading ? null : onPressed,

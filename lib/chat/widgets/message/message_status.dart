@@ -22,21 +22,21 @@ class MessageStatus extends StatelessWidget {
         return InheritedChatTheme.of(context).theme.deliveredIcon != null
             ? InheritedChatTheme.of(context).theme.deliveredIcon!
             : Image.asset(
-                'lib/chat/assets/icon-delivered.png',
+                'assets/icons/icon-delivered.png',
                 color: InheritedChatTheme.of(context).theme.primaryColor,
               );
       case types.Status.error:
         return InheritedChatTheme.of(context).theme.errorIcon != null
             ? InheritedChatTheme.of(context).theme.errorIcon!
             : Image.asset(
-                'lib/chat/assets/icon-error.png',
+                'assets/icons/icon-error.png',
                 color: InheritedChatTheme.of(context).theme.errorColor,
               );
       case types.Status.seen:
         return InheritedChatTheme.of(context).theme.seenIcon != null
             ? InheritedChatTheme.of(context).theme.seenIcon!
             : Image.asset(
-                'lib/chat/assets/icon-seen.png',
+                'assets/icons/icon-seen.png',
                 color: InheritedChatTheme.of(context).theme.primaryColor,
               );
       case types.Status.sending:

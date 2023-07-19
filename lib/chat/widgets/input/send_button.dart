@@ -29,7 +29,7 @@ class SendButton extends StatelessWidget {
           ),
           icon: InheritedChatTheme.of(context).theme.sendButtonIcon ??
               Image.asset(
-                'lib/chat/assets/icon-send.png',
+                'assets/icons/icon-send.png',
                 color: InheritedChatTheme.of(context).theme.inputTextColor,
               ),
           onPressed: onPressed,
